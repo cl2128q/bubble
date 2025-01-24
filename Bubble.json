@@ -95,6 +95,22 @@
         "name": "New Piskel (17).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/tapioca.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tapioca",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
