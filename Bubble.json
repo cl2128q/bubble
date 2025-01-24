@@ -111,6 +111,30 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (17)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (17)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (18).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (18).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

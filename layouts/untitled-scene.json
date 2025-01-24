@@ -18,46 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3300560049165933,
+    "zoomFactor": 0.2616774116992159,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 91,
-      "customSize": true,
-      "depth": 1,
-      "height": 1244,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tile",
-      "persistentUuid": "5a576df6-b059-4800-b2e9-93dbdc103a14",
-      "width": 1170,
-      "x": -45,
-      "y": -69,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 91,
-      "customSize": true,
-      "depth": 1,
-      "height": 1244,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tile",
-      "persistentUuid": "1221a3b1-2a2e-42dc-b112-2871e82797ae",
-      "width": 1170,
-      "x": 1198,
-      "y": -47,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -122,6 +88,22 @@
       "x": 981,
       "y": 808,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile",
+      "persistentUuid": "bf9f3966-bfb7-41d2-86f8-f2812a2b3888",
+      "width": 0,
+      "x": -29,
+      "y": -315,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -286,7 +268,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel (17).png",
+                  "image": "New Piskel (18).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
