@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2616774116992159,
+    "zoomFactor": 0.2987985363606915,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -137,17 +137,16 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Standing",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "pandagal-1.png2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -163,20 +162,500 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 20,
-                        "y": 15
+                        "x": 52,
+                        "y": 16
                       },
                       {
-                        "x": 40,
-                        "y": 15
+                        "x": 204,
+                        "y": 16
                       },
                       {
-                        "x": 40,
-                        "y": 61
+                        "x": 204,
+                        "y": 220
                       },
                       {
-                        "x": 20,
-                        "y": 61
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WalkingForward",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-1.png3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-2.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-3.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-4.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-5.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-6.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-7.png (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-8.png (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-9.png (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-7.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-8.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pandagal-9.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 16
+                      },
+                      {
+                        "x": 204,
+                        "y": 220
+                      },
+                      {
+                        "x": 52,
+                        "y": 220
                       }
                     ]
                   ]
