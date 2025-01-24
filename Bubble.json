@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 221,
     "major": 5,
-    "minor": 4,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -65,7 +65,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -74,11 +73,26 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (17).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (17).png",
         "smoothed": true,
         "userAdded": false
       }

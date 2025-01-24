@@ -18,25 +18,42 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3526904934771229,
+    "zoomFactor": 0.3300560049165933,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
-      "angle": 0,
+      "angle": 91,
       "customSize": true,
       "depth": 1,
-      "height": 259,
+      "height": 1244,
       "keepRatio": true,
       "layer": "",
-      "name": "player",
-      "persistentUuid": "a3121dad-bac5-451e-8e24-cda07c1257bf",
-      "width": 272,
-      "x": 993,
-      "y": 528,
-      "zOrder": 1,
+      "name": "tile",
+      "persistentUuid": "5a576df6-b059-4800-b2e9-93dbdc103a14",
+      "width": 1170,
+      "x": -45,
+      "y": -69,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 91,
+      "customSize": true,
+      "depth": 1,
+      "height": 1244,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile",
+      "persistentUuid": "1221a3b1-2a2e-42dc-b112-2871e82797ae",
+      "width": 1170,
+      "x": 1198,
+      "y": -47,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,15 +62,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 124,
+      "height": 119,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Layer",
       "name": "emptycup",
-      "persistentUuid": "425b4908-8ee3-4a7a-b90b-682c8ed546e4",
-      "width": 115,
-      "x": 859,
-      "y": 507,
-      "zOrder": 2,
+      "persistentUuid": "e295b5d5-bf28-46eb-a5b3-9d0cb9cf2114",
+      "width": 108,
+      "x": 558,
+      "y": 299,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "player",
+      "persistentUuid": "788e8dce-b312-4545-ab76-8f3b61d504b8",
+      "width": 252,
+      "x": 827,
+      "y": 398,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -70,6 +104,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -79,9 +115,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -197,16 +231,79 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "New Piskel (17).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2000,
+                        "y": 0
+                      },
+                      {
+                        "x": 2000,
+                        "y": 2000
+                      },
+                      {
+                        "x": 0,
+                        "y": 2000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "player"
+        "objectName": "tile"
       },
       {
         "objectName": "emptycup"
+      },
+      {
+        "objectName": "player"
       }
     ]
   },
@@ -279,6 +376,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
