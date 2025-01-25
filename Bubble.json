@@ -327,6 +327,38 @@
         "name": "New Piskel (24).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Boba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boba.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaCup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaCup.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaCup2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaCup2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaStraw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaStraw.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7817486425451814,
+    "zoomFactor": 0.33005600491659526,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -137,6 +137,23 @@
       "x": 1078,
       "y": -433,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 157,
+      "keepRatio": true,
+      "layer": "",
+      "name": "straw",
+      "persistentUuid": "9f57f5ed-60f8-4c52-a3d2-516b178abc76",
+      "width": 142,
+      "x": 792,
+      "y": 322,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -720,7 +737,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "bobaCup.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -736,20 +753,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 10
+                        "x": 25,
+                        "y": 45
                       },
                       {
-                        "x": 53,
-                        "y": 10
+                        "x": 285,
+                        "y": 45
                       },
                       {
-                        "x": 53,
-                        "y": 61
+                        "x": 285,
+                        "y": 265
                       },
                       {
-                        "x": 11,
-                        "y": 61
+                        "x": 25,
+                        "y": 265
                       }
                     ]
                   ]
@@ -841,7 +858,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tapioca",
+                  "image": "Boba.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -857,20 +874,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 21
+                        "x": 165,
+                        "y": 190
                       },
                       {
-                        "x": 36,
-                        "y": 21
+                        "x": 335,
+                        "y": 190
                       },
                       {
-                        "x": 36,
-                        "y": 51
+                        "x": 335,
+                        "y": 305
                       },
                       {
-                        "x": 9,
-                        "y": 51
+                        "x": 165,
+                        "y": 305
                       }
                     ]
                   ]
@@ -1024,7 +1041,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "bobaCup2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1040,20 +1057,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 5
+                        "x": 25,
+                        "y": 45
                       },
                       {
-                        "x": 52,
-                        "y": 5
+                        "x": 285,
+                        "y": 45
                       },
                       {
-                        "x": 52,
-                        "y": 54
+                        "x": 285,
+                        "y": 265
                       },
                       {
-                        "x": 12,
-                        "y": 54
+                        "x": 25,
+                        "y": 265
                       }
                     ]
                   ]
@@ -1303,6 +1320,77 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "straw",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobaStraw.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 140,
+                        "y": 45
+                      },
+                      {
+                        "x": 180,
+                        "y": 45
+                      },
+                      {
+                        "x": 180,
+                        "y": 290
+                      },
+                      {
+                        "x": 140,
+                        "y": 290
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1316,6 +1404,12 @@
       },
       {
         "objectName": "newcup"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "straw"
       },
       {
         "objectName": "player"
