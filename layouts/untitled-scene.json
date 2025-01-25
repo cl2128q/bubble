@@ -2080,6 +2080,86 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "cup",
+            "=",
+            "player.CenterX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "cup",
+            "=",
+            "player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "tea",
+            "=",
+            "player.CenterX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "tea",
+            "=",
+            "player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "tapioca",
+            "=",
+            "player.CenterX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "tapioca",
+            "=",
+            "player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "straw",
+            "=",
+            "player.CenterX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "straw",
+            "=",
+            "player.CenterY()"
+          ]
         }
       ],
       "actions": [
