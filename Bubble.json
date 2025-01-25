@@ -471,6 +471,14 @@
         "name": "counter (1)2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "teaDrink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teaDrink.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

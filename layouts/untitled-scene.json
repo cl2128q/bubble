@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22169247275005396,
+    "zoomFactor": 0.3895856273827328,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -182,6 +182,22 @@
       "x": 1254,
       "y": 648,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "teaDrink",
+      "persistentUuid": "ce36d829-8c9c-4b33-8f88-bc015d76f836",
+      "width": 0,
+      "x": 1226,
+      "y": 755,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1468,6 +1484,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "teaDrink",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "teaDrink.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 34
+                      },
+                      {
+                        "x": 100,
+                        "y": 34
+                      },
+                      {
+                        "x": 100,
+                        "y": 94
+                      },
+                      {
+                        "x": 26,
+                        "y": 94
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1511,6 +1587,9 @@
       },
       {
         "objectName": "Counter"
+      },
+      {
+        "objectName": "teaDrink"
       }
     ]
   },
