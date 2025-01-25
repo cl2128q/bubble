@@ -543,6 +543,30 @@
         "name": "NewTiledSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "New Piskel (28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (28).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (29).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (29).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (30).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (30).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
