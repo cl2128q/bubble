@@ -359,6 +359,14 @@
         "name": "bobaStraw.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "moodeng2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moodeng2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

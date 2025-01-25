@@ -115,7 +115,7 @@
       "height": 263,
       "keepRatio": true,
       "layer": "",
-      "name": "customer",
+      "name": "Moodeng",
       "persistentUuid": "a1719e01-97f3-4895-84a1-5edb8fa600f1",
       "width": 265,
       "x": 253,
@@ -962,7 +962,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "customer",
+      "name": "Moodeng",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -980,7 +980,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
+                  "image": "moodeng2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1071,66 +1071,6 @@
                       {
                         "x": 25,
                         "y": 265
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Moodeng",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "moodeng.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 72,
-                        "y": 12
-                      },
-                      {
-                        "x": 180,
-                        "y": 12
-                      },
-                      {
-                        "x": 180,
-                        "y": 192
-                      },
-                      {
-                        "x": 72,
-                        "y": 192
                       }
                     ]
                   ]
@@ -1419,9 +1359,6 @@
       },
       {
         "objectName": "tea"
-      },
-      {
-        "objectName": "customer"
       },
       {
         "objectName": "Moodeng"
@@ -1846,7 +1783,7 @@
           },
           "parameters": [
             "player",
-            "customer",
+            "Moodeng",
             "",
             "",
             ""
