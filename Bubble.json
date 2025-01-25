@@ -295,6 +295,38 @@
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "moodeng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "moodeng.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fishboy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fishboy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel (24).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (24).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
