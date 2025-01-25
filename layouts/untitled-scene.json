@@ -1592,6 +1592,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "No",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "New Piskel (25).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 87,
+                        "y": 9
+                      },
+                      {
+                        "x": 87,
+                        "y": 84
+                      },
+                      {
+                        "x": 9,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1638,6 +1698,9 @@
       },
       {
         "objectName": "teaDrink"
+      },
+      {
+        "objectName": "No"
       }
     ]
   },
@@ -2200,6 +2263,483 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Customer Unhappy",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Moodeng",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "cup",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "cup",
+                "=",
+                "player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "tea",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "tea",
+                "=",
+                "player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "tapioca",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "tapioca",
+                "=",
+                "player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "straw",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "straw",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "No",
+            "Moodeng.CenterX()-50",
+            "Moodeng.CenterY()-220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "No",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Moodeng",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "cup",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "cup",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "No",
+            "Moodeng.CenterX()-50",
+            "Moodeng.CenterY()-220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "No",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Moodeng",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "tea",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "tea",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "No",
+            "Moodeng.CenterX()-50",
+            "Moodeng.CenterY()-220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "No",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Moodeng",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "tapioca",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "tapioca",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "No",
+            "Moodeng.CenterX()-50",
+            "Moodeng.CenterY()-220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "No",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Moodeng",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "straw",
+                "=",
+                "player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosY"
+              },
+              "parameters": [
+                "straw",
+                "=",
+                "player.CenterY()"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "No",
+            "Moodeng.CenterX()-50",
+            "Moodeng.CenterY()-220",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "No",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
