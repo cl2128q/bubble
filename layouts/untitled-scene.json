@@ -1002,6 +1002,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "newcup",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 5
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 12,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1012,6 +1073,9 @@
       },
       {
         "objectName": "cup"
+      },
+      {
+        "objectName": "newcup"
       },
       {
         "objectName": "player"
@@ -1028,6 +1092,44 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "tea",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "cup",
+            "=",
+            "7"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "newcup",
+            "=",
+            "player.CenterX()",
+            "=",
+            "player.CenterY()"
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -1071,7 +1173,7 @@
           },
           "parameters": [
             "",
-            "cup",
+            "newcup",
             "player.CenterX()",
             "player.CenterY()",
             "\"Layer\""
@@ -1431,32 +1533,6 @@
           "parameters": [
             "tapioca",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "tea",
-            "=",
-            "6"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "cup",
-            "=",
-            "7"
           ]
         }
       ]

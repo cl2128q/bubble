@@ -287,6 +287,14 @@
         "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
