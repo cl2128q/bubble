@@ -519,6 +519,14 @@
         "name": "counterRightEdge.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Walls.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walls.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
