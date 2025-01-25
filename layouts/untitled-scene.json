@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3895856273827325,
+    "zoomFactor": 0.22169247275005396,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,65 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 119,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "cup",
-      "persistentUuid": "e295b5d5-bf28-46eb-a5b3-9d0cb9cf2114",
-      "width": 108,
-      "x": 632,
-      "y": 530,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 256,
       "keepRatio": true,
-      "layer": "Layer",
+      "layer": "",
       "name": "player",
       "persistentUuid": "788e8dce-b312-4545-ab76-8f3b61d504b8",
       "width": 252,
-      "x": 953,
-      "y": 332,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "tapioca",
-      "persistentUuid": "ca26e98b-91de-4a26-a443-913935e63573",
-      "width": 125,
-      "x": 1384,
-      "y": 511,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 189,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "tea",
-      "persistentUuid": "70dd041a-d11e-4673-8fe9-692abbb8351f",
-      "width": 185,
-      "x": 791,
-      "y": 759,
+      "x": 692,
+      "y": 124,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,71 +91,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 157,
-      "keepRatio": true,
-      "layer": "",
-      "name": "straw",
-      "persistentUuid": "9f57f5ed-60f8-4c52-a3d2-516b178abc76",
-      "width": 142,
-      "x": 792,
-      "y": 322,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "straw",
-      "persistentUuid": "548a675e-8d83-4053-af1f-203dd1be030e",
-      "width": 0,
-      "x": 1522,
-      "y": 731,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tapioca",
-      "persistentUuid": "179dc55c-2f22-4dec-82aa-b1bd392ae88e",
-      "width": 0,
-      "x": 1634,
-      "y": 552,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tea",
-      "persistentUuid": "5eecc193-6c4d-4188-8ab4-e3c5feae8f91",
-      "width": 0,
-      "x": 1028,
-      "y": 800,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 360,
       "customSize": false,
       "height": 0,
@@ -234,6 +118,70 @@
       "x": 355,
       "y": 608,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tea",
+      "persistentUuid": "3b8e66ed-0b7e-4e91-a72f-51407eeaf4c1",
+      "width": 0,
+      "x": 880,
+      "y": 676,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cup",
+      "persistentUuid": "9ed12cd7-bede-462a-97fe-322515e24bec",
+      "width": 0,
+      "x": 644,
+      "y": 550,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "straw",
+      "persistentUuid": "0786d906-cecb-41c7-9680-824b590c813d",
+      "width": 0,
+      "x": 397,
+      "y": 411,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tapioca",
+      "persistentUuid": "01ff1cad-85b1-4502-8de4-c19677506ea3",
+      "width": 0,
+      "x": 1254,
+      "y": 648,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1342,18 +1290,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "straw",
       "type": "Sprite",
@@ -1388,20 +1325,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 56,
-                        "y": 18
+                        "x": 38.5,
+                        "y": 5.5
                       },
                       {
-                        "x": 72,
-                        "y": 18
+                        "x": 84.5,
+                        "y": 4.5
                       },
                       {
-                        "x": 72,
-                        "y": 116
+                        "x": 86.5,
+                        "y": 126.5
                       },
                       {
-                        "x": 56,
-                        "y": 116
+                        "x": 38.5,
+                        "y": 126
                       }
                     ]
                   ]
@@ -1546,9 +1483,6 @@
         "objectName": "newcup"
       },
       {
-        "objectName": "NewSprite"
-      },
-      {
         "objectName": "straw"
       },
       {
@@ -1584,37 +1518,22 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "CentreCamera"
           },
           "parameters": [
-            "tea",
-            "=",
-            "6"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "cup",
-            "=",
-            "7"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "newcup",
-            "=",
-            "player.CenterX()",
-            "=",
-            "player.CenterY()"
+            "",
+            "player",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -1662,10 +1581,10 @@
           },
           "parameters": [
             "",
-            "newcup",
+            "cup",
             "player.CenterX()",
             "player.CenterY()",
-            "\"Layer\""
+            ""
           ]
         }
       ]
@@ -1705,7 +1624,7 @@
             "tapioca",
             "player.CenterX()",
             "player.CenterY()",
-            "\"Layer\""
+            ""
           ]
         }
       ]
@@ -1745,7 +1664,47 @@
             "tea",
             "player.CenterX()",
             "player.CenterY()",
-            "\"Layer\""
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "straw",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "straw",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "straw",
+            "player.CenterX()",
+            "player.CenterY()",
+            ""
           ]
         }
       ]
@@ -2023,6 +1982,15 @@
             "tapioca",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "straw",
+            ""
+          ]
         }
       ]
     }
@@ -2054,39 +2022,6 @@
           "width": 0
         }
       ],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Layer",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
