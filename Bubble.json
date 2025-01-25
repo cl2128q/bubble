@@ -375,6 +375,78 @@
         "name": "tea.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "bobaCup (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaCup (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaCup (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaCup (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaCup (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaCup (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaStraw (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaStraw (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bobaStraw (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bobaStraw (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Boba (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boba (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Boba (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boba (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Boba (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boba (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tea (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tea (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

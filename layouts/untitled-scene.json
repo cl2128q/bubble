@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33005600491659526,
+    "zoomFactor": 0.3895856273827325,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -154,6 +154,54 @@
       "x": 792,
       "y": 322,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "straw",
+      "persistentUuid": "548a675e-8d83-4053-af1f-203dd1be030e",
+      "width": 0,
+      "x": 1522,
+      "y": 731,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tapioca",
+      "persistentUuid": "179dc55c-2f22-4dec-82aa-b1bd392ae88e",
+      "width": 0,
+      "x": 1634,
+      "y": 552,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tea",
+      "persistentUuid": "5eecc193-6c4d-4188-8ab4-e3c5feae8f91",
+      "width": 0,
+      "x": 1028,
+      "y": 800,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -737,7 +785,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bobaCup.png",
+                  "image": "bobaCup (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -753,20 +801,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 25,
-                        "y": 45
+                        "x": 10,
+                        "y": 18
                       },
                       {
-                        "x": 285,
-                        "y": 45
+                        "x": 114,
+                        "y": 18
                       },
                       {
-                        "x": 285,
-                        "y": 265
+                        "x": 114,
+                        "y": 106
                       },
                       {
-                        "x": 25,
-                        "y": 265
+                        "x": 10,
+                        "y": 106
                       }
                     ]
                   ]
@@ -858,7 +906,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Boba.png",
+                  "image": "Boba (2)2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -874,20 +922,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 165,
-                        "y": 190
+                        "x": 41,
+                        "y": 49
                       },
                       {
-                        "x": 335,
-                        "y": 190
+                        "x": 86,
+                        "y": 49
                       },
                       {
-                        "x": 335,
-                        "y": 305
+                        "x": 86,
+                        "y": 78
                       },
                       {
-                        "x": 165,
-                        "y": 305
+                        "x": 41,
+                        "y": 78
                       }
                     ]
                   ]
@@ -919,7 +967,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tea.png",
+                  "image": "tea (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -935,20 +983,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 20,
-                        "y": 65
+                        "x": 8,
+                        "y": 26
                       },
                       {
-                        "x": 295,
-                        "y": 65
+                        "x": 118,
+                        "y": 26
                       },
                       {
-                        "x": 295,
-                        "y": 250
+                        "x": 118,
+                        "y": 100
                       },
                       {
-                        "x": 20,
-                        "y": 250
+                        "x": 8,
+                        "y": 100
                       }
                     ]
                   ]
@@ -1041,7 +1089,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bobaCup2.png",
+                  "image": "bobaCup (2)2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1057,20 +1105,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 25,
-                        "y": 45
+                        "x": 10,
+                        "y": 18
                       },
                       {
-                        "x": 285,
-                        "y": 45
+                        "x": 114,
+                        "y": 18
                       },
                       {
-                        "x": 285,
-                        "y": 265
+                        "x": 114,
+                        "y": 106
                       },
                       {
-                        "x": 25,
-                        "y": 265
+                        "x": 10,
+                        "y": 106
                       }
                     ]
                   ]
@@ -1292,7 +1340,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bobaStraw.png",
+                  "image": "bobaStraw (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1308,20 +1356,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 140,
-                        "y": 45
+                        "x": 56,
+                        "y": 18
                       },
                       {
-                        "x": 180,
-                        "y": 45
+                        "x": 72,
+                        "y": 18
                       },
                       {
-                        "x": 180,
-                        "y": 290
+                        "x": 72,
+                        "y": 116
                       },
                       {
-                        "x": 140,
-                        "y": 290
+                        "x": 56,
+                        "y": 116
                       }
                     ]
                   ]
