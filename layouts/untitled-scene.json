@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2216924727500542,
+    "zoomFactor": 0.2890516203134966,
     "windowMask": false
   },
   "objectsGroups": [
@@ -177,7 +177,7 @@
       "initialVariables": []
     },
     {
-      "angle": 319,
+      "angle": 346,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -204,22 +204,6 @@
       "x": 2241,
       "y": 235,
       "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "teaDrink",
-      "persistentUuid": "ce36d829-8c9c-4b33-8f88-bc015d76f836",
-      "width": 0,
-      "x": 1362,
-      "y": 595,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -330,8 +314,8 @@
       "name": "counterSideView",
       "persistentUuid": "8a11f9aa-8101-4671-bac2-7f8fa0f52650",
       "width": 0,
-      "x": 1266,
-      "y": 678,
+      "x": 1233,
+      "y": 666,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -535,6 +519,74 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1403,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "89684c02-1661-420d-b423-6e9add116905",
+      "width": 5807,
+      "x": -1774,
+      "y": -1434,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1403,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "2c8a9001-7052-4ba7-9639-bfd4c00150b7",
+      "width": 5807,
+      "x": -1602,
+      "y": 1415,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1541,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "ef855b93-5bfb-40c8-b893-7935a21249c8",
+      "width": 1303,
+      "x": -1802,
+      "y": -61,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1550,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "7be24d1e-5a55-4d62-94e6-d3d6a9e18256",
+      "width": 1303,
+      "x": 2527,
+      "y": -84,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -548,16 +600,16 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 1000,
+          "deceleration": 100000,
+          "maxSpeed": 400,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
-          "deceleration": 800,
           "ignoreDefaultControls": false,
-          "maxSpeed": 200,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
@@ -2178,6 +2230,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "NewTiledSprite",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2239,15 +2302,13 @@
       },
       {
         "objectName": "walls"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -2262,6 +2323,18 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "teaDrink",
+            "=",
+            "player.CenterX()",
+            "=",
+            "player.CenterY()"
           ]
         }
       ]
@@ -2351,7 +2424,7 @@
             "",
             "tapioca",
             "player.CenterX()",
-            "player.CenterY()",
+            "player.CenterY()+20",
             ""
           ]
         }
@@ -2389,7 +2462,7 @@
           },
           "parameters": [
             "",
-            "tea",
+            "teaDrink",
             "player.CenterX()",
             "player.CenterY()",
             ""
@@ -2431,7 +2504,7 @@
             "",
             "straw",
             "player.CenterX()",
-            "player.CenterY()",
+            "player.CenterY()-50",
             ""
           ]
         }
@@ -2707,7 +2780,7 @@
             "value": "PosX"
           },
           "parameters": [
-            "tea",
+            "teaDrink",
             "=",
             "player.CenterX()"
           ]
@@ -2717,7 +2790,7 @@
             "value": "PosY"
           },
           "parameters": [
-            "tea",
+            "teaDrink",
             "=",
             "player.CenterY()"
           ]
@@ -2739,7 +2812,7 @@
           "parameters": [
             "tapioca",
             "=",
-            "player.CenterY()"
+            "player.CenterY()+20"
           ]
         },
         {
@@ -2759,7 +2832,7 @@
           "parameters": [
             "straw",
             "=",
-            "player.CenterY()"
+            "player.CenterY()-50"
           ]
         }
       ],
@@ -2778,7 +2851,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "tea",
+            "teaDrink",
             ""
           ]
         },
@@ -2862,7 +2935,7 @@
                 "value": "PosX"
               },
               "parameters": [
-                "tea",
+                "teaDrink",
                 "=",
                 "player.CenterX()"
               ]
@@ -2873,7 +2946,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "tea",
+                "teaDrink",
                 "=",
                 "player.CenterY()"
               ]
@@ -2897,7 +2970,7 @@
               "parameters": [
                 "tapioca",
                 "=",
-                "player.CenterY()"
+                "player.CenterY()+20"
               ]
             },
             {
@@ -2919,7 +2992,7 @@
               "parameters": [
                 "straw",
                 "=",
-                "player.CenterY()"
+                "player.CenterY()-50"
               ]
             }
           ]
@@ -3062,7 +3135,7 @@
                 "value": "PosX"
               },
               "parameters": [
-                "tea",
+                "teaDrink",
                 "=",
                 "player.CenterX()"
               ]
@@ -3073,7 +3146,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "tea",
+                "teaDrink",
                 "=",
                 "player.CenterY()"
               ]
@@ -3153,7 +3226,7 @@
               "parameters": [
                 "tapioca",
                 "=",
-                "player.CenterY()"
+                "player.CenterY()+20"
               ]
             }
           ]
@@ -3231,7 +3304,7 @@
               "parameters": [
                 "straw",
                 "=",
-                "player.CenterY()"
+                "player.CenterY()-50"
               ]
             }
           ]
@@ -3268,21 +3341,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "colorB": 228,
