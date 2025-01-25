@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2987985363606915,
+    "zoomFactor": 0.22169247275005308,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -31,12 +31,12 @@
       "height": 119,
       "keepRatio": true,
       "layer": "Layer",
-      "name": "emptycup",
+      "name": "cup",
       "persistentUuid": "e295b5d5-bf28-46eb-a5b3-9d0cb9cf2114",
       "width": 108,
-      "x": 558,
-      "y": 299,
-      "zOrder": 4,
+      "x": 632,
+      "y": 530,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -51,8 +51,8 @@
       "name": "player",
       "persistentUuid": "788e8dce-b312-4545-ab76-8f3b61d504b8",
       "width": 252,
-      "x": 827,
-      "y": 398,
+      "x": 953,
+      "y": 332,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,8 +68,8 @@
       "name": "tapioca",
       "persistentUuid": "ca26e98b-91de-4a26-a443-913935e63573",
       "width": 125,
-      "x": 1296,
-      "y": 219,
+      "x": 1384,
+      "y": 511,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,9 +85,9 @@
       "name": "tea",
       "persistentUuid": "70dd041a-d11e-4673-8fe9-692abbb8351f",
       "width": 185,
-      "x": 981,
-      "y": 808,
-      "zOrder": 7,
+      "x": 791,
+      "y": 759,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -101,9 +101,42 @@
       "name": "tile",
       "persistentUuid": "bf9f3966-bfb7-41d2-86f8-f2812a2b3888",
       "width": 0,
-      "x": -29,
-      "y": -315,
-      "zOrder": 8,
+      "x": -841,
+      "y": -433,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 263,
+      "keepRatio": true,
+      "layer": "",
+      "name": "customer",
+      "persistentUuid": "a1719e01-97f3-4895-84a1-5edb8fa600f1",
+      "width": 265,
+      "x": 253,
+      "y": 97,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile",
+      "persistentUuid": "c1168071-e4a8-4e36-a866-d5d474c52987",
+      "width": 0,
+      "x": 1078,
+      "y": -433,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -669,7 +702,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "emptycup",
+      "name": "cup",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -908,6 +941,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "customer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -917,7 +1011,7 @@
         "objectName": "tile"
       },
       {
-        "objectName": "emptycup"
+        "objectName": "cup"
       },
       {
         "objectName": "player"
@@ -927,10 +1021,24 @@
       },
       {
         "objectName": "tea"
+      },
+      {
+        "objectName": "customer"
       }
     ]
   },
   "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "collecting ingredients",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -940,7 +1048,7 @@
           },
           "parameters": [
             "player",
-            "emptycup",
+            "cup",
             "",
             "",
             ""
@@ -953,7 +1061,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "emptycup",
+            "cup",
             ""
           ]
         },
@@ -963,7 +1071,7 @@
           },
           "parameters": [
             "",
-            "emptycup",
+            "cup",
             "player.CenterX()",
             "player.CenterY()",
             "\"Layer\""
@@ -1266,6 +1374,89 @@
             "Animation",
             "=",
             "\"Right\""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "customer",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "customer",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "cup",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "tea",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "tapioca",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "tea",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "cup",
+            "=",
+            "7"
           ]
         }
       ]
