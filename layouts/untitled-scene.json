@@ -21,7 +21,28 @@
     "zoomFactor": 0.3895856273827328,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "CounterWalls",
+      "objects": [
+        {
+          "name": "CounterWithEdges"
+        },
+        {
+          "name": "counterSideView"
+        },
+        {
+          "name": "counterLeftEdge"
+        },
+        {
+          "name": "counterRightEdge"
+        },
+        {
+          "name": "Counter"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -34,8 +55,8 @@
       "name": "player",
       "persistentUuid": "788e8dce-b312-4545-ab76-8f3b61d504b8",
       "width": 252,
-      "x": 309,
-      "y": 740,
+      "x": -47,
+      "y": 379,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,8 +88,8 @@
       "name": "Moodeng",
       "persistentUuid": "a1719e01-97f3-4895-84a1-5edb8fa600f1",
       "width": 265,
-      "x": 96,
-      "y": 493,
+      "x": 0,
+      "y": 2,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +248,8 @@
       "name": "CounterWithEdges",
       "persistentUuid": "2922392b-27dc-49d3-922f-144c75a1ffd7",
       "width": 0,
-      "x": 702,
-      "y": 99,
+      "x": 3,
+      "y": 121,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,9 +264,73 @@
       "name": "CounterWithEdges",
       "persistentUuid": "7bb641cb-004e-4301-a2c7-e93bcb6b3bb9",
       "width": 0,
-      "x": 1424,
-      "y": 99,
+      "x": 491,
+      "y": 335,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "counterSideView",
+      "persistentUuid": "9349952e-6dbc-49e7-b1f3-474f4038be7c",
+      "width": 0,
+      "x": 1510,
+      "y": 250,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "counterLeftEdge",
+      "persistentUuid": "391b3e1b-efc0-4084-9806-3dd3f5ecda2a",
+      "width": 0,
+      "x": 646,
+      "y": 99,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "counterLeftEdge",
+      "persistentUuid": "23bbaf5a-cc68-4e4a-8b14-22511691f7c8",
+      "width": 0,
+      "x": 1446,
+      "y": 566,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "counterRightEdge",
+      "persistentUuid": "3cd0b08d-983e-4d2d-b645-b576415e2daa",
+      "width": 0,
+      "x": 1332,
+      "y": 98,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1652,6 +1737,186 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "counterSideView",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CounterSideView.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 110,
+                        "y": 25
+                      },
+                      {
+                        "x": 205,
+                        "y": 25
+                      },
+                      {
+                        "x": 205,
+                        "y": 290
+                      },
+                      {
+                        "x": 110,
+                        "y": 290
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "counterLeftEdge",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "counterLeftEdge.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 85
+                      },
+                      {
+                        "x": 280,
+                        "y": 85
+                      },
+                      {
+                        "x": 280,
+                        "y": 235
+                      },
+                      {
+                        "x": 35,
+                        "y": 235
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "counterRightEdge",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "counterRightEdge.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 85
+                      },
+                      {
+                        "x": 280,
+                        "y": 85
+                      },
+                      {
+                        "x": 280,
+                        "y": 235
+                      },
+                      {
+                        "x": 35,
+                        "y": 235
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1701,6 +1966,15 @@
       },
       {
         "objectName": "No"
+      },
+      {
+        "objectName": "counterSideView"
+      },
+      {
+        "objectName": "counterLeftEdge"
+      },
+      {
+        "objectName": "counterRightEdge"
       }
     ]
   },
@@ -2740,6 +3014,51 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "CollisionCounter",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "CounterWalls",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "CounterWalls",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

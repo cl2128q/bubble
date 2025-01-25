@@ -487,6 +487,38 @@
         "name": "New Piskel (25).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "CounterSideView.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CounterSideView.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "counterLeftEdge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "counterLeftEdge.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "counterWithEdges2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "counterWithEdges2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "counterRightEdge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "counterRightEdge.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
