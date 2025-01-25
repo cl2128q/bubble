@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18169065978486662,
+    "zoomFactor": 0.9860263907838516,
     "windowMask": false
   },
   "objectsGroups": [
@@ -58,6 +58,23 @@
           "name": "Capy"
         }
       ]
+    },
+    {
+      "name": "Ingredient",
+      "objects": [
+        {
+          "name": "cup"
+        },
+        {
+          "name": "tapioca"
+        },
+        {
+          "name": "tea"
+        },
+        {
+          "name": "straw"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -72,8 +89,8 @@
       "name": "player",
       "persistentUuid": "788e8dce-b312-4545-ab76-8f3b61d504b8",
       "width": 252,
-      "x": -167,
-      "y": 171,
+      "x": 788,
+      "y": -30,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -162,70 +179,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tea",
-      "persistentUuid": "3b8e66ed-0b7e-4e91-a72f-51407eeaf4c1",
-      "width": 0,
-      "x": 2232,
-      "y": 1018,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "cup",
-      "persistentUuid": "9ed12cd7-bede-462a-97fe-322515e24bec",
-      "width": 0,
-      "x": 1063,
-      "y": 227,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 346,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "straw",
-      "persistentUuid": "0786d906-cecb-41c7-9680-824b590c813d",
-      "width": 0,
-      "x": 1688,
-      "y": 573,
-      "zOrder": 53,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "tapioca",
-      "persistentUuid": "01ff1cad-85b1-4502-8de4-c19677506ea3",
-      "width": 0,
-      "x": 2241,
-      "y": 235,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 90,
       "customSize": false,
       "height": 0,
@@ -267,8 +220,8 @@
       "name": "CounterWithEdges",
       "persistentUuid": "7bb641cb-004e-4301-a2c7-e93bcb6b3bb9",
       "width": 0,
-      "x": 2153,
-      "y": 271,
+      "x": 2159,
+      "y": 269,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -307,7 +260,7 @@
       "initialVariables": []
     },
     {
-      "angle": 269,
+      "angle": 90,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -315,9 +268,9 @@
       "name": "counterSideView",
       "persistentUuid": "8a11f9aa-8101-4671-bac2-7f8fa0f52650",
       "width": 0,
-      "x": 1233,
-      "y": 666,
-      "zOrder": 36,
+      "x": 1248,
+      "y": 683,
+      "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -482,8 +435,8 @@
       "name": "counterSideView",
       "persistentUuid": "282b81a4-1ac8-4871-8ec5-62864dd4d594",
       "width": 0,
-      "x": 1677,
-      "y": 545,
+      "x": 1765,
+      "y": 600,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -3872,6 +3825,64 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "Table3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "Table3",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "Table2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "Table2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -4130,6 +4141,274 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Spawn Ingredients",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "cup",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "cup",
+            "RandomInRange(537,2391)",
+            "RandomInRange(7,1336)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "cup",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "tapioca",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "tapioca",
+            "RandomInRange(537,2391)",
+            "RandomInRange(7,1336)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "tapioca",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "tea",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "tea",
+            "RandomInRange(537,2391)",
+            "RandomInRange(7,1336)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "tea",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "straw",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "straw",
+            "RandomInRange(537,2391)",
+            "RandomInRange(7,1336)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "straw",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
