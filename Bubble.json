@@ -367,6 +367,14 @@
         "name": "moodeng2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "tea.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tea.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

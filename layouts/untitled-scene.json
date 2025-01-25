@@ -919,7 +919,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "tea.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -935,20 +935,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 15
+                        "x": 20,
+                        "y": 65
                       },
                       {
-                        "x": 44,
-                        "y": 15
+                        "x": 295,
+                        "y": 65
                       },
                       {
-                        "x": 44,
-                        "y": 49
+                        "x": 295,
+                        "y": 250
                       },
                       {
-                        "x": 19,
-                        "y": 49
+                        "x": 20,
+                        "y": 250
                       }
                     ]
                   ]
