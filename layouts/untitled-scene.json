@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25314140012987935,
+    "zoomFactor": 0.1489067059587527,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4598,7 +4598,7 @@
             "Timer",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"Countdown\")-10)))"
+            "ToString(round(abs(TimerElapsedTime(\"Countdown\")-100)))"
           ]
         }
       ]
@@ -4638,7 +4638,7 @@
             "",
             "\"Countdown\"",
             ">=",
-            "10"
+            "100"
           ]
         }
       ],
@@ -6018,7 +6018,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "WallCollision",
+      "name": "WallCollision + Grass",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [],
@@ -6048,6 +6048,35 @@
           "parameters": [
             "player",
             "walls",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "NewTiledSprite",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "NewTiledSprite",
             ""
           ]
         }
@@ -6173,6 +6202,14 @@
       "actions": [
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "10"
+          ]
+        },
+        {
+          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
@@ -6232,6 +6269,14 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "15"
+          ]
+        },
         {
           "type": {
             "value": "AddForceVersPos"
@@ -6295,6 +6340,14 @@
       "actions": [
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "25"
+          ]
+        },
+        {
+          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
@@ -6354,6 +6407,14 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "20"
+          ]
+        },
         {
           "type": {
             "value": "AddForceVersPos"
@@ -6745,6 +6806,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
@@ -6803,6 +6872,14 @@
             "-600",
             "1900",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "10"
           ]
         },
         {
@@ -6869,6 +6946,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "10"
+          ]
+        },
+        {
+          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
@@ -6927,6 +7012,14 @@
             "-390",
             "1900",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "15"
           ]
         },
         {
