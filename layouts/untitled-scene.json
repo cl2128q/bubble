@@ -7255,7 +7255,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -7288,7 +7288,7 @@
       "isLocked": false,
       "name": "Start MenuLayer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -7321,7 +7321,7 @@
       "isLocked": false,
       "name": "EndScreen",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
