@@ -3732,27 +3732,26 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement"
+                "",
+                "s"
               ]
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement",
-                "\"Down\""
+                "",
+                "Down"
               ]
             }
           ]
@@ -3781,6 +3780,16 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement",
+            "\"Down\""
+          ]
         }
       ]
     },
@@ -3789,27 +3798,26 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement"
+                "",
+                "w"
               ]
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement",
-                "\"Up\""
+                "",
+                "Up"
               ]
             }
           ]
@@ -3838,6 +3846,16 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement",
+            "\"Up\""
+          ]
         }
       ]
     },
@@ -3846,27 +3864,26 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement"
+                "",
+                "a"
               ]
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement",
-                "\"Left\""
+                "",
+                "Left"
               ]
             }
           ]
@@ -3895,6 +3912,16 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement",
+            "\"Left\""
+          ]
         }
       ]
     },
@@ -3903,27 +3930,26 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement"
+                "",
+                "d"
               ]
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "player",
-                "TopDownMovement",
-                "\"Right\""
+                "",
+                "Right"
               ]
             }
           ]
@@ -3951,6 +3977,16 @@
             "",
             "25",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "player",
+            "TopDownMovement",
+            "\"Right\""
           ]
         }
       ]
