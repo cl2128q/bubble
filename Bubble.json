@@ -575,6 +575,14 @@
         "name": "New Piskel (32).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
