@@ -1202,7 +1202,7 @@
       "width": 0,
       "x": 113,
       "y": 479,
-      "zOrder": 89,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7255,7 +7255,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -7288,7 +7288,7 @@
       "isLocked": false,
       "name": "Start MenuLayer",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -7321,7 +7321,7 @@
       "isLocked": false,
       "name": "EndScreen",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
