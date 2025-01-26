@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23689563725447785,
+    "zoomFactor": 0.24488383633726846,
     "windowMask": false
   },
   "objectsGroups": [
@@ -926,17 +926,112 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 107,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
+      "layer": "UI",
+      "name": "Timer",
+      "persistentUuid": "0bc44c8d-15f2-4a87-b78a-3c024c1c496c",
+      "width": 0,
+      "x": 96,
+      "y": 79,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1075,
+      "layer": "EndScreen",
+      "name": "end_screen",
+      "persistentUuid": "52bbc169-88ce-4620-b484-c002d0771b25",
+      "width": 1915,
+      "x": 7,
+      "y": -6,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "EndScreen",
+      "name": "gameover",
+      "persistentUuid": "3e5b7e72-a113-4d7f-84c7-f31fa9386936",
+      "width": 0,
+      "x": 725,
+      "y": 329,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 73.75,
+      "height": 107,
       "layer": "Start MenuLayer",
-      "name": "Restart_Button",
-      "persistentUuid": "9a606385-c2df-41e1-b6f5-0d5fa631e976",
+      "name": "Start_Button",
+      "persistentUuid": "5df2f455-2f22-4940-b0dd-60a7f2e732d9",
       "width": 295,
       "x": 818,
       "y": 602,
       "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "EndScreen",
+      "name": "Restart_Button",
+      "persistentUuid": "31de6ad4-876b-4a2d-b91a-3daeb3339d97",
+      "width": 0,
+      "x": 609,
+      "y": 688,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "EndScreen",
+      "name": "Quit_Button",
+      "persistentUuid": "9d4e892f-65c0-4314-b205-8313550b057b",
+      "width": 0,
+      "x": 920,
+      "y": 681,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "number_customers_served",
+      "persistentUuid": "72fcaf17-6441-4bc3-a816-581ac11bee07",
+      "width": 0,
+      "x": 1620,
+      "y": 72,
+      "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1793,67 +1888,6 @@
                       {
                         "x": 63.5,
                         "y": 198
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "newcup",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "bobaCup (2)2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 18
-                      },
-                      {
-                        "x": 114,
-                        "y": 18
-                      },
-                      {
-                        "x": 114,
-                        "y": 106
-                      },
-                      {
-                        "x": 10,
-                        "y": 106
                       }
                     ]
                   ]
@@ -3329,6 +3363,330 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cup2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobaCup (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 18
+                      },
+                      {
+                        "x": 114,
+                        "y": 18
+                      },
+                      {
+                        "x": 114,
+                        "y": 106
+                      },
+                      {
+                        "x": 10,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "straw2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bobaStraw (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.5,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 84.5,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 86.5,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 38.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tapioca2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "tapioca",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boba (2)2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 49
+                      },
+                      {
+                        "x": 86,
+                        "y": 49
+                      },
+                      {
+                        "x": 86,
+                        "y": 78
+                      },
+                      {
+                        "x": 41,
+                        "y": 78
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 1000,
+      "leftMargin": 0,
+      "name": "end_screen",
+      "rightMargin": 0,
+      "texture": "MenuBackground",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 1001,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "gameover",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "game is over",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "game is over",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number_customers_served",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3350,16 +3708,28 @@
         "objectName": "cup"
       },
       {
-        "objectName": "newcup"
+        "objectName": "cup2"
       },
       {
         "objectName": "straw"
+      },
+      {
+        "objectName": "straw2"
       },
       {
         "objectName": "player"
       },
       {
         "objectName": "tapioca"
+      },
+      {
+        "objectName": "tapioca2"
+      },
+      {
+        "objectName": "Timer"
+      },
+      {
+        "objectName": "number_customers_served"
       },
       {
         "objectName": "tea"
@@ -3410,6 +3780,12 @@
         "objectName": "MenuBackground"
       },
       {
+        "objectName": "end_screen"
+      },
+      {
+        "objectName": "gameover"
+      },
+      {
         "objectName": "NewSprite"
       },
       {
@@ -3457,6 +3833,50 @@
         },
         {
           "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "tapioca2",
+            "=",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "teaDrink",
+            "=",
+            "15"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "cup2",
+            "=",
+            "player.CenterX()",
+            "=",
+            "player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "tapioca2",
+            "=",
+            "player.CenterX()",
+            "=",
+            "player.CenterY()+20"
+          ]
+        },
+        {
+          "type": {
             "value": "MettreXY"
           },
           "parameters": [
@@ -3465,6 +3885,100 @@
             "player.CenterX()",
             "=",
             "player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "straw2",
+            "=",
+            "player.CenterX()",
+            "=",
+            "player.CenterY()-50"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"Countdown\")-10)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"EndScreen\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Countdown\"",
+            ">=",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Countdown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"time's up\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"EndScreen\""
           ]
         }
       ]
@@ -3526,7 +4040,7 @@
             "",
             "pickupSounds.wav",
             "",
-            "20",
+            "0",
             ""
           ]
         }
@@ -3578,7 +4092,7 @@
             "",
             "pickupSounds.wav",
             "",
-            "20",
+            "0",
             ""
           ]
         }
@@ -3630,7 +4144,7 @@
             "",
             "teaPouringSounds.wav",
             "",
-            "20",
+            "0",
             ""
           ]
         }
@@ -3681,8 +4195,8 @@
           "parameters": [
             "",
             "pickupSounds.wav",
-            "",
-            "20",
+            "no",
+            "0",
             ""
           ]
         }
@@ -3777,7 +4291,7 @@
             "",
             "walkingSounds2.wav",
             "",
-            "25",
+            "0",
             ""
           ]
         },
@@ -3843,7 +4357,7 @@
             "",
             "walkingSounds2.wav",
             "",
-            "25",
+            "0",
             ""
           ]
         },
@@ -3909,7 +4423,7 @@
             "",
             "walkingSounds2.wav",
             "",
-            "25",
+            "0",
             ""
           ]
         },
@@ -3975,7 +4489,7 @@
             "",
             "walkingSounds2.wav",
             "",
-            "25",
+            "0",
             ""
           ]
         },
@@ -5778,6 +6292,15 @@
             "20",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Countdown\""
+          ]
         }
       ]
     },
@@ -5887,7 +6410,7 @@
             "",
             "Quirky-Dog(chosic.com).mp3",
             "yes",
-            "20",
+            "8",
             ""
           ]
         }
@@ -5895,39 +6418,6 @@
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "EndScreen",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -5983,9 +6473,75 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Start MenuLayer",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Start MenuLayer",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "EndScreen",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
