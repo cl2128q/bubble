@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20069741314550757,
+    "zoomFactor": 0.23689563725447785,
     "windowMask": false
   },
   "objectsGroups": [
@@ -884,8 +884,8 @@
       "name": "MenuBackground",
       "persistentUuid": "8c0fa938-7afb-496d-a7ed-73e32d324154",
       "width": 1915,
-      "x": 1622,
-      "y": -1288,
+      "x": 7,
+      "y": -6,
       "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
@@ -901,8 +901,8 @@
       "name": "Quit_Button",
       "persistentUuid": "21db23a9-1dbf-4e02-8112-1f2b10991a9a",
       "width": 298,
-      "x": 2431,
-      "y": -486,
+      "x": 816,
+      "y": 796,
       "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
@@ -917,8 +917,8 @@
       "name": "Logo",
       "persistentUuid": "a5809834-502e-442c-b059-8d797e2cd4e4",
       "width": 0,
-      "x": 1638,
-      "y": -1271,
+      "x": 23,
+      "y": 11,
       "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
@@ -934,8 +934,8 @@
       "name": "Restart_Button",
       "persistentUuid": "9a606385-c2df-41e1-b6f5-0d5fa631e976",
       "width": 295,
-      "x": 2433,
-      "y": -680,
+      "x": 818,
+      "y": 602,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -5843,6 +5843,15 @@
             "20",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -5897,21 +5906,10 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "",
+      "name": "EndScreen",
       "renderingType": "",
       "visibility": true,
-      "cameras": [
-        {
-          "defaultSize": true,
-          "defaultViewport": true,
-          "height": 0,
-          "viewportBottom": 1,
-          "viewportLeft": 0,
-          "viewportRight": 1,
-          "viewportTop": 0,
-          "width": 0
-        }
-      ],
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
@@ -5941,10 +5939,21 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "EndScreen",
+      "name": "",
       "renderingType": "",
       "visibility": true,
-      "cameras": [],
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
