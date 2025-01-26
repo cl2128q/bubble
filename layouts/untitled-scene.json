@@ -6205,7 +6205,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "10"
+            "15"
           ]
         },
         {
@@ -6274,7 +6274,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "15"
+            "35"
           ]
         },
         {
@@ -6806,21 +6806,13 @@
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "5"
-          ]
-        },
-        {
-          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
             "Moodeng",
             "186",
             "1077",
-            "100",
+            "20",
             ""
           ]
         }
@@ -6876,21 +6868,13 @@
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "10"
-          ]
-        },
-        {
-          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
             "FishBoy",
             "-679",
             "970",
-            "100",
+            "20",
             ""
           ]
         }
@@ -6946,21 +6930,13 @@
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "10"
-          ]
-        },
-        {
-          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
             "FishGirl",
             "-1010",
             "970",
-            "100",
+            "20",
             ""
           ]
         }
@@ -7016,21 +6992,13 @@
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "15"
-          ]
-        },
-        {
-          "type": {
             "value": "AddForceVersPos"
           },
           "parameters": [
             "Capy",
             "-433",
             "1014",
-            "100",
+            "20",
             ""
           ]
         }
